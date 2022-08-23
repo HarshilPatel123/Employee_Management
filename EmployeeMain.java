@@ -25,29 +25,33 @@ Public class main{
             Choice = sc.nextInt();
             switch(choice){ 
             case 1:
-                 System.out.println(Enter your choice);
-                 d.addemployee();
+                 System.out.println(Add Employee Details);
+                 d.addEmp();
+                 break;
+            case 2:
+                 System.out.println(View Employee Details);
+                 d.addEmp();
+                 break;
+            case 3:
+                 System.out.println(Update Employee Details);
+                 d.addEmp();
+                 break;
+            case 4:
+                 System.out.println(Delete Employee Details);
+                 d.addEmp();
+                 break;
+            case 5:
+                 System.out.println(View all Employee Details);
+                 d.addEmp();
+                 break;
+             case 6:
+                 System.out.println("Thanks for using Application");
+                 System.exit(0);
+             default:
+                 System.out.println("Please enter valid choice")
+                 break;
+         }
 
-
-
-
-
-
-        }
-
-
-
-
-        }
-
-
-     
- }
-
-
-     
-      
-
-
-
+        }while(true);
+    } 
 }
