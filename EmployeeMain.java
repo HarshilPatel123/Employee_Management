@@ -23,7 +23,11 @@ Public class main{
             int choice;
             System.out.println(Enter your choice);
             Choice = sc.nextInt();
-            switch(choice){
+            switch(choice){ 
+            case 1:
+                 System.out.println(Enter your choice);
+                 d.addemployee();
+
 
 
 
