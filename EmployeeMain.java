@@ -21,27 +21,27 @@ public class main{
         do{
             menu();
             int choice;
-            System.out.println(Enter your choice);
+            System.out.println("Enter your choice");
             Choice = sc.nextInt();
             switch(choice){ 
             case 1:
-                 System.out.println(Add Employee Details);
+                 System.out.println("Add Employee Details");
                  d.addEmp();
                  break;
             case 2:
-                 System.out.println(View Employee Details);
+                 System.out.println("View Employee Details");
                  d.viewEmp();
                  break;
             case 3:
-                 System.out.println(Update Employee Details);
+                 System.out.println("Update Employee Details");
                  d.updateEmp();
                  break;
             case 4:
-                 System.out.println(Delete Employee Details);
+                 System.out.println("Delete Employee Details");
                  d.deleteEmp();
                  break;
             case 5:
-                 System.out.println(View all Employee Details);
+                 System.out.println("View all Employee Details");
                  d.viewAllEmp();
                  break;
              case 6:
