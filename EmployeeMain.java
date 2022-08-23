@@ -1,8 +1,8 @@
-Package com.EmpManagement;
+package com.EmpManagement;
 
 import java.util.Scanner;
 
-Public class main{
+public class main{
 
      EmployeeData d = new EmployeeData();
 
