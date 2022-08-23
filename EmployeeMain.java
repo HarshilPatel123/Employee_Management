@@ -22,7 +22,7 @@ public class main{
             menu();
             int choice;
             System.out.println("Enter your choice");
-            Choice = sc.nextInt();
+            choice = sc.nextInt();
             switch(choice){ 
             case 1:
                  System.out.println("Add Employee Details");
