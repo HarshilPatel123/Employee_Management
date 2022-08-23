@@ -31,7 +31,7 @@ class EmployeeData {
           empset.add(emp1);
 }
 
-        public void viewAllEmps() {
+        public void viewAllEmp() {
 		for(Employee emp:empset) {
 			System.out.println(emp);
 		}
@@ -56,7 +56,7 @@ class EmployeeData {
 	}
 	//update the employee details
 
-	public void updateEmployee() {
+	public void updateEmp() {
 		System.out.println("Enter id: ");
 		id=sc.nextInt();
 		boolean found=false;
