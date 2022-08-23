@@ -1,51 +1,51 @@
-Package com.EmpManagement
+package com.EmpManagement
  
-Public class Employee{
+public class Employee{
           Private int id;
           Private String name;
           Private int age;  
           Private String designation;
           Private String department;
           Private double salary;
-         public int getid(){
+         public int getId(){
               return id;
          }
-         Public void setid(){
+         public void setId(){
               this.id = id;
          }
-         Public String getname(){
+         public String getName(){
               return name;
          }
-         Public void setname(){
+         public void setName(){
               this.name = name ;
           }
-         Public int getage(){
+         public int getAge(){
               return age;
           }
-         Public void setage(){
+         public void setAge(){
               this.age = age;
           } 
-         Public String getdesignation(){
+         public String getDesignation(){
               return designation;
           }
-         Public void setdesignation(){
+         public void setDesignation(){
               this.designation = designation;
           }
 
-         Public String getdepartment(){
+         public String getDepartment(){
               return department;
           }
-         Public void setdepartment(){
+         public void setDepartment(){
                this.department = department;
           }
-          Public double getsalary(){
+          Public double getSalary(){
               return salary;
           }
-         Public void setsalary(){
+         Public void setSalary(){
               this.salary = salary;
           }
          @Override
-	public String toString() {
+	 public String toString() {
 		return "Employee [id=" + id + ", name=" + name + ", age=" + age + ", desiganation=" + desiganation
 				+ ", department=" + department + ", salary=" + salary + "]";
 	}
