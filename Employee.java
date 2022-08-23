@@ -7,7 +7,9 @@ Public class Employee{
           Private String designation;
           Private String department;
           Private double salary;
-
+         public int getid(){
+              return id;
+         }
          Public void setid(){
               this.id = id;
          }
