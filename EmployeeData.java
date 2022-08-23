@@ -36,7 +36,8 @@ class EmployeeData {
 			System.out.println(emp);
 		}
 	}
-	//view emp based on there id
+	//view employee based on there id
+
 	public void viewEmp(){
 		
 		System.out.println("Enter id: ");
