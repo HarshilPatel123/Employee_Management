@@ -1,4 +1,4 @@
-Package com.EmpManagement;
+package com.EmpManagement;
 
 import java.util.*;
 
