@@ -30,19 +30,19 @@ Public class main{
                  break;
             case 2:
                  System.out.println(View Employee Details);
-                 d.addEmp();
+                 d.viewEmp();
                  break;
             case 3:
                  System.out.println(Update Employee Details);
-                 d.addEmp();
+                 d.updateEmp();
                  break;
             case 4:
                  System.out.println(Delete Employee Details);
-                 d.addEmp();
+                 d.deleteEmp();
                  break;
             case 5:
                  System.out.println(View all Employee Details);
-                 d.addEmp();
+                 d.viewAllEmp();
                  break;
              case 6:
                  System.out.println("Thanks for using Application");
