@@ -13,11 +13,11 @@ class EmployeeData {
      double salary;
     
      Employee emp1 = new Employee(101,"Harsh",24,"Devloper","IT",37000);
-     Employee emp1 = new Employee(102,"Raj",28,"Admin","Devops",49000);
-     Employee emp1 = new Employee(103,"rishi",26,"Devloper","IT",28000);
-     Employee emp1 = new Employee(104,"Paresh",29,"Tester","Soft eng.",37000);
-     Employee emp1 = new Employee(105,"Harshil",23,"Devloper","Devops",57000);
-     Employee emp1 = new Employee(106,"Shubham",25,"Sepervisor","IT",51000);
+     Employee emp2 = new Employee(102,"Raj",28,"Admin","Devops",49000);
+     Employee emp3 = new Employee(103,"rishi",26,"Devloper","IT",28000);
+     Employee emp4 = new Employee(104,"Paresh",29,"Tester","Soft eng.",37000);
+     Employee emp5 = new Employee(105,"Harshil",23,"Devloper","Devops",57000);
+     Employee emp6 = new Employee(106,"Shubham",25,"Sepervisor","IT",51000);
 
      Scanner sc = new Scanner(System.in);
 
