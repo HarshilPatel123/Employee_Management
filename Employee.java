@@ -54,7 +54,7 @@ public class Employee{
 		this.id = id;
 		this.name = name;
 		this.age = age;
-		this.desiganation = desiganation;
+		this.designation = designation;
 		this.department = department;
 		this.salary = salary;
 	}
